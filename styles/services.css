@@ -358,6 +358,10 @@ body {
         position: relative;
     }
 
+    .r-van_left .r-van_img {
+        display: none;   
+    }
+    
     .r-van_right {
         width: 100%;
         margin-left: 0px;
