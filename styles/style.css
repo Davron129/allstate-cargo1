@@ -242,7 +242,6 @@ html{
     width: 90%;
     margin: 0 auto;
     padding-bottom: 40px;
-    border: 1px solid #ECECEC;
     display: flex;
     justify-content: space-around;
     text-align: center;
@@ -502,7 +501,6 @@ html{
     display: inline-block;
     margin: auto auto; /* 15% from the top and centered */
     padding: 54px 45px;
-    border: 1px solid #888;
     width: auto; /* Could be more or less, depending on screen size */
     color: #2f2f2f;
     position: relative;
@@ -1066,7 +1064,6 @@ html{
     .hero_text {
         display: block;
         margin-top: 100px;
-        border: 1px solid #000;
     }
     .hero-left {
         width: 100%;
@@ -1078,7 +1075,6 @@ html{
     .hero-left > p {
         width: 100%;
         font-size: 42px;
-        /* border: 1px solid #000; */
         line-height: 55px;
         letter-spacing: 0.025em;
     }
@@ -1479,7 +1475,6 @@ html{
     }
     .swiper-container {
         margin: 30px;
-        border: 1px solid #000;
     }
 
     .swiper-slide {
@@ -2242,7 +2237,6 @@ footer > .container {
     display: inline-block;
     margin: auto auto; /* 15% from the top and centered */
     padding: 54px 45px;
-    border: 1px solid #888;
     width: auto; /* Could be more or less, depending on screen size */
     color: #2f2f2f;
     position: relative;
