@@ -1,0 +1,343 @@
+body{
+    font-family: sans-serif;
+}
+
+.career-header{
+    background: url(../images/careers/careers_bg.jpg) no-repeat center center /cover;
+    height: 100vh;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.career-heading{
+    height: 100%;
+    margin-left: 160px;
+    font-size: 85px;
+    font-weight: 500;
+}
+.career-section{
+    padding: 80px 0;
+    height: auto;
+}
+.career-section .career-wrap{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;   
+}
+.breadcrumb{
+    margin-bottom: 54px;
+    display: flex;
+    list-style: none;
+}
+.breadcrumb .breadcrumb-item{
+    font-size: 11px;
+}
+.breadcrumb .breadcrumb-item span{
+    margin: 0 10px;  
+}
+.breadcrumb .breadcrumb-item a{
+    color: #acacac;
+   
+}
+.breadcrumb .breadcrumb-item .active{
+    color: #262626;    
+}
+
+.form .form-left{
+    margin-right: 46px;
+}
+.form .form-left ul li{
+    width: 416px;
+    padding: 12px 0;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 20px;
+    background-color: rgba(236, 236, 236, 1);
+    font-size: 18px;
+    font-weight: 500;
+}
+.form .form-left ul li.active{
+    border: 2px solid rgba(9, 111, 248, 1);
+    background-color: white;
+}
+.form .form-right .tab h2{
+    font-weight: 500;
+    font-size: 40px;
+}
+.form .form-right .tab p:first-of-type{
+    color: rgba(172, 172, 172, 1);
+    font-size: 11px;
+    padding: 23px 0;
+}
+.form .form-right .tab p:nth-of-type(2), p:nth-of-type(3){
+    color: black;
+    font-size: 14px;
+    line-height: 23.8px;
+    margin-bottom: 50px;
+}
+.form .form-right .tab .authorisation-form{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+}
+.form .form-right .tab .authorisation-form input{
+    width: 250px;
+    height: 42px;
+    padding: 14px 0 14px 24px;
+    font-size: 20px; 
+    border: 2px solid rgba(240, 240, 240, 1);
+    margin: 0 20px 17px 0;
+}
+.form .form-right .tab .authorisation-form input::placeholder{
+    color: rgba(172, 172, 172, 1);
+    font-size: 14px;    
+}
+.form .form-right .tab .authorisation-form button{
+    width: 250px;
+    color: rgba(255, 255, 255, 1);
+    background: rgba(9, 111, 248, 1);
+    text-align: center;
+    padding: 5px 0;
+    height: 42px;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    display: inline-block;
+    outline: none;
+}
+.form .form-right .tab .authorisation-form button.active{
+    background: #F47B36;
+}
+
+@media (max-width: 1524.9px) and (min-width: 1200px) {
+    .career-heading {
+        margin-left: 140px;
+        font-size: 72px;
+    }
+    .career-section {
+        padding: 70px 0;
+    }
+    .form .form-right .tab p:first-of-type{
+        color: rgba(172, 172, 172, 1);
+        font-size: 11px;
+        padding: 15px 0;
+    }
+    .form .form-right .tab p:nth-of-type(2), p:nth-of-type(3){
+        margin-bottom: 20px;
+    }
+    .form .form-right .tab .authorisation-form {
+        justify-content: space-between;
+        width: 100%;
+    }
+    .form .form-right .tab .authorisation-form input {
+        width: calc(33% - 13px);
+        padding: 14px 24px;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    .form .form-right .tab .authorisation-form button{
+        width: calc(33% - 13px);
+        padding: 14px 24px;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1199.9px) {
+    .container {
+        width: 720px !important;
+        padding: 0 !important;
+    }
+    .career-header{
+        background: url(../images/careers/career-md-bg.jpg) no-repeat center center /cover;
+        display: flex;
+        align-items: center;
+    }
+    .career-heading{
+        padding: 0px;
+        font-size: 60px;
+        font-weight: 500;
+        margin-left: 0;
+    }
+    .career-section{
+        height: auto;
+    }
+    .career-section .career-wrap{
+        width: 100%;
+        height: unset;
+        display: block;          
+    }
+    .breadcrumb{    
+        margin: 50px 0;
+        display: flex;
+        list-style: none;
+    }
+    .breadcrumb .breadcrumb-item{
+        font-size: 16px;
+    }
+    .breadcrumb .breadcrumb-item span{
+        margin: 0 12px;  
+    }
+    .breadcrumb .breadcrumb-item a{
+        color: #acacac;       
+    }
+    .breadcrumb .breadcrumb-item .active{
+        color: #262626;    
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+    }
+    .form .form-right{
+        order: 1;
+    }
+    .form .form-left{
+        margin: 0;
+        margin-top: 30px;
+        order: 2;
+    }
+    .form .form-left ul li{
+        width: 100%;
+        padding: 12px 0;
+        margin-bottom: 40px;
+        font-size: 22px;
+    }
+    .form .form-left ul li.active{
+        border: 2px solid rgba(244, 123, 54, 1);
+        background-color: white;
+    }
+
+    .form .form-right .tab h2{
+        font-weight: 500;
+        font-size: 32px;
+    }
+    .form .form-right .tab p:first-of-type{
+        color: rgba(172, 172, 172, 1);
+        font-size: 20px;
+        padding: 63px 0 40px 0;
+    }
+    .form .form-right .tab p:nth-of-type(2), p:nth-of-type(3){
+        color: black;
+        font-size: 20px;
+        line-height: 34px;
+        margin-bottom: 0px;
+    }
+    .form .form-right .tab .authorisation-form{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 20px auto;
+    }
+    .form .form-right .tab .authorisation-form input{
+        width: 320px;
+        height: 45px;
+        padding: 14px 0 14px 24px;
+        font-size: 20px; 
+    
+    }
+    .form .form-right .tab .authorisation-form input::placeholder{
+        color: rgba(172, 172, 172, 1);
+        font-size: 20px;    
+    }
+    .form .form-right .tab .authorisation-form button{
+        width: 320px;
+    
+    }
+}
+
+
+@media (min-width: 320px) and (max-width: 767.9px) {
+    .wrapper {
+        width: 100%;
+    }
+    .container {
+        width: 100%;
+        padding: 0 15px;
+    }
+    .career-header{
+        background: url(../images/careers/career-md-bg.jpg) no-repeat center center /cover;
+        display: flex;
+        align-items: center;
+    }
+    .career-heading{
+        padding: 0px;
+        font-size: 42px;
+        font-weight: 500;
+        margin-left: 0;
+    }
+    .career-section{
+        padding-top: 0;
+        height: auto;
+    }
+    .career-section .career-wrap{
+        width: 100%;
+        height: unset;
+        display: block;          
+    }
+    .breadcrumb{    
+        margin: 50px 0;
+        display: flex;
+        list-style: none;
+    }
+    .breadcrumb .breadcrumb-item{
+        font-size: 11px;
+    }
+    .breadcrumb .breadcrumb-item span{
+        margin: 0 12px;  
+    }
+    .breadcrumb .breadcrumb-item a{
+        color: #acacac;       
+    }
+    .breadcrumb .breadcrumb-item .active{
+        color: #262626;    
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+    }
+    .form .form-right{
+        order: 1;
+    }
+    .form .form-left{
+        margin: 0;
+        margin-top: 30px;
+        order: 2;
+    }
+    .form .form-left ul li{
+        /* background: #000; */
+        width: 100%;
+        padding: 14px 0;
+        margin-bottom: 24px;
+        font-size: 16px;
+    }
+    .form .form-left ul li.active{
+        border: 2px solid rgba(244, 123, 54, 1);
+        background-color: white;
+    }
+
+    .form-right {
+        padding-top: 30px;
+        border-top: 2px solid #F47B36;
+    }
+
+    .form .form-right .tab h2{
+        font-weight: 500;
+        font-size: 32px;
+    }
+    .form .form-right .tab p:first-of-type{
+        color: rgba(172, 172, 172, 1);
+        font-size: 11px;
+        line-height: 170%;
+        padding: 30px 0 20px 0;
+    }
+    .form .form-right .tab p:nth-of-type(2), p:nth-of-type(3){
+        color: black;
+        font-size: 11px;
+        line-height: 170%;
+        margin-bottom: 0px;
+    }
+    .form .form-right .tab .authorisation-form{
+        display: none;
+    }
+}

@@ -1,0 +1,670 @@
+body {
+    font-family: sans-serif;
+}
+
+.service-header {
+    background: url(../images/services/services_bg.jpg) no-repeat center center /cover;
+    height: 100vh;
+    color: white;
+}
+
+.service-wrap {
+    width: 100%;
+    min-height: 100vh;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.service-header .hero-section {
+    display: flex;
+    align-items: center;
+}
+
+.service-header .hero-section .hero-left {
+    width: 400px;
+    padding: 0 !important;
+    font-size: 85px;
+    font-weight: 500;
+    line-height: 111px;
+    margin-right: 70px;
+}
+
+.service-header .hero-section .hero-right {
+    width: 683px;
+    padding: 0 !important;
+    font-size: 12px;
+    line-height: 19.2px;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.breadcrumb {
+    margin-bottom: 44px;
+    display: flex;
+    list-style: none;
+}
+
+.breadcrumb .breadcrumb-item {
+    font-size: 11px;
+}
+
+.breadcrumb .breadcrumb-item span {
+    margin: 0 10px;
+}
+
+.breadcrumb .breadcrumb-item a {
+    color: #acacac;
+
+}
+
+.breadcrumb .breadcrumb-item .active {
+    color: #262626;
+}
+
+.service-truck {
+    display: flex;
+}
+
+.service-truck .truck-left {
+    margin-right: 30px;
+    width: 486px;
+    border-top: 2px solid rgba(9, 111, 248, 1);
+    padding-top: 40px;
+}
+
+.service-truck .truck-left h2 {
+    font-size: 40px;
+    font-weight: 500;
+    color: rgba(38, 38, 38, 1);
+    margin-bottom: 100px;
+}
+
+.service-truck .truck-left p {
+    font-size: 14px;
+    line-height: 23.8px;
+}
+.service-truck .truck-right img{
+    width: 100%;
+}
+
+/* r-van */
+
+.r-van {
+    display: flex;
+    color: #262626;
+    line-height: 170%;
+}
+
+.r-van_img img {
+    width: 100%;
+}
+
+.r-van_right {
+    width: 487px;
+    margin-left: 30px;
+    padding-top: 40px;
+    border-top: 2px solid #096FF8;
+}
+
+.r-van_right > .r-van_img {
+    display: none;
+}
+
+.r-van_content h3 {
+    margin-bottom: 40px;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 52px;
+}
+
+.r-van_content p {
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+
+/* warehouse */
+
+.flip {
+    order: 1;
+    margin-right: -30px !important;
+    margin-left: 30px;
+}
+
+.warehouse {
+    display: flex;
+    color: #262626;
+}
+
+.warehouse-left {
+    display: block;
+    margin-right: 10px;
+    border-top: 2px solid rgba(9, 111, 248, 1);
+    padding-top: 32px;
+}
+
+.warehouse-left h2 {
+    width: 487px;
+    margin-bottom: 40px;
+    font-size: 40px;
+    font-weight: 500;
+    color: rgba(38, 38, 38, 1);
+}
+
+.warehouse-left p {
+    margin-bottom: 30px;
+    color: rgba(38, 38, 38, 1);
+    font-size: 14px;
+}
+
+.warehouse-left li {
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+    font-size: 11px;
+}
+
+.warehouse-left li::before {
+    content: "";
+    width: 5px;
+    height: 5px;
+    margin-right: 20px;
+    display: inline-block;
+    background: #F47B36;
+
+}
+
+.warehouse-right .warehouse-images {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.warehouse-right img {
+    width: calc(50% - 20px);
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.service-section{
+    position: relative;
+}
+
+@media (min-width: 1200px) and (max-width: 1525px) {
+    .service-header .hero-section .hero-left {
+        width: 300px;
+        font-size: 72px;
+        line-height: 95px;
+    }
+
+    .service-truck .truck-left h2 {
+        margin-bottom: 50px;
+    }
+    
+    .warehouse-left {
+        margin-right: 30px;
+    }
+
+    .warehouse-left h2 {
+        width: 400px;
+        margin-bottom: 35px;
+        font-size: 35px;
+    }
+    
+    .warehouse-left p {
+        margin-bottom: 20px;
+        color: rgba(38, 38, 38, 1);
+        font-size: 13px;
+    }
+    
+    .warehouse-left li {
+        margin-bottom: 20px;
+        font-size: 11px;
+    }
+    
+    .warehouse-left li::before {
+        width: 4px;
+        height: 4px;
+        margin-right: 16px;
+    }
+    
+    .warehouse-right .warehouse-images {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    .warehouse-right img {
+        width: calc(50% - 10px);
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1199.9px) {
+    .container {
+        width: 720px !important;
+    }
+    .service-header {
+        background: url(../images/services/services-md-bg.jpg) no-repeat center center /cover;
+        height: 100vh;
+        color: white;
+    }
+
+    .service-wrap {
+        width: 100%;
+        min-height: auto;
+        display: block;
+    }
+    .service-header .service-wrap{
+        height: 100vh;
+    }
+
+    .service-header .hero-section {
+        display: block;
+        align-items: center;
+    }
+
+    .service-header .hero-section .hero-left {
+        width: 100%;
+        padding: 0 !important;
+        font-size: 60px;
+        font-weight: 500;
+        line-height: 78px;
+        margin-right: 0px;
+        margin-bottom: 50px;
+    }
+
+    .service-header .hero-section .hero-right {
+        width: auto;
+        padding: 0 0 0 64px;
+        font-size: 20px;
+        line-height: 1.6em;
+        color: rgba(255, 255, 255, 1);
+
+    }
+
+    .breadcrumb {
+        margin: 50px 0;
+        display: flex;
+        list-style: none;
+    }
+
+    .breadcrumb .breadcrumb-item {
+        font-size: 16px;
+    }
+
+    .breadcrumb .breadcrumb-item span {
+        margin: 0 12px;
+    }
+
+    .service-section {
+        height: auto;
+    }
+
+    .service-truck {
+        display: block;
+    }
+
+    .service-truck .truck-left {
+        margin-right: 0px;
+        width: 100%;
+        border-top: none;
+        padding-top: 0;
+    }
+
+    .service-truck .truck-left h2 {
+        font-size: 32px;
+        font-weight: 500;
+        color: rgba(38, 38, 38, 1);
+        margin-bottom: 63px;
+    }
+
+    .service-truck .truck-left p {
+        font-size: 20px;
+        line-height: 34px;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .service-truck .truck-right {
+        margin-bottom: 60px;
+    }
+
+    .service-truck .truck-right img {
+        width: 100%;
+        padding: 0;
+    }
+
+    /* r-van */
+
+    .r-van {
+        display: block;
+        color: #262626;
+        line-height: 34px;
+
+    }
+
+    .r-van_left > .r-van_img {
+        display: none;
+    }
+
+    .r-van_img img {
+        width: 100%;
+    }
+
+    .r-van_left {
+        position: relative;
+    }
+
+    .r-van_right {
+        width: 100%;
+        margin-left: 0px;
+        padding: 40px 0;
+        border-top: 2px solid #F47B36;
+    }
+
+    .r-van_right > .r-van_img {
+        display: block;
+    }
+
+    .r-van_right img {
+        width: 100%;
+    }
+
+    .r-van_content h3 {
+        margin-bottom: 63px;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 41px;
+    }
+
+    .r-van_content p {
+        padding: 0;
+        margin-bottom: 30px;
+        font-size: 20px;
+    }
+
+
+    /* warehouse */
+
+    .warehouse {
+        display: block;
+    }
+
+    .warehouse-left {
+        margin-right: 0px;
+        border-top: 4px solid #F47B36;
+        padding-top: 110px;
+    }
+
+    .warehouse-left h2 {
+        width: 100%;
+        margin-bottom: 32px;
+        font-size: 32px;
+        font-weight: 500;
+        color: rgba(38, 38, 38, 1);
+    }
+
+    .warehouse-left p {
+        margin-bottom: 61px;
+        color: rgba(38, 38, 38, 1);
+        font-size: 20px;
+    }
+
+    .warehouse-left li {
+        margin-bottom: 28px;
+        display: flex;
+        align-items: center;
+        font-size: 20px;
+    }
+
+    .warehouse-left li::before {
+        content: "";
+        width: 11.86px;
+        height: 11.86px;
+        margin-right: 47px;
+        display: inline-block;
+        background: #F47B36;
+
+    }
+
+    .warehouse-left ul {
+        margin-bottom: 72px;
+    }
+
+    .warehouse-right {
+        width: 100%;
+        margin-bottom: 70px;
+    }
+
+    .warehouse-right .warehouse-images {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .warehouse-right .warehouse-images {
+        justify-content: space-between;
+    }
+
+    .warehouse-right img {
+        width: calc(50% - 13px);
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+}
+
+
+@media (min-width: 320px) and (max-width: 767.9px) {
+    .container {
+        width: 100% !important;
+        padding: 0 15px;
+    }
+    /* .nav {
+        display: none;
+    } */
+    .service-header {
+        background: url(../images/services/services-md-bg.jpg) no-repeat center center /cover;
+        height: 100vh;
+        color: white;
+    }
+
+    .service-wrap {
+        width: 100%;
+        min-height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .service-header .service-wrap{
+        height: 100vh;
+    }
+
+    .service-header .hero-section {
+        display: block;
+        align-items: center;
+    }
+
+    .service-header .hero-section .hero-left {
+        width: 100%;
+        padding: 0 !important;
+        font-size: 42px;
+        font-weight: 500;
+        line-height: 54px;
+        margin-bottom: 30px;
+    }
+
+    .service-header .hero-section .hero-right {
+        width: 100%;
+        padding: 0 0 0 30px !important;
+        font-size: 12px;
+        line-height: 1.6em;
+        color: rgba(255, 255, 255, 1);
+        height: 24em;
+        overflow: hidden;
+
+    }
+
+    .breadcrumb {
+        margin: 30px 0;
+        display: flex;
+        list-style: none;
+    }
+
+    .breadcrumb .breadcrumb-item {
+        font-size: 11px;
+    }
+
+    .breadcrumb .breadcrumb-item span {
+        margin: 0 12px;
+    }
+
+    .service-section {
+        height: auto;
+    }
+
+    .service-truck {
+        display: block;
+    }
+
+    .service-truck .truck-left {
+        width: 100%;
+        padding-top: 0;
+        margin-right: 0px;
+        margin-bottom: 30px;
+        border-top: none;
+    }
+
+    .service-truck .truck-left h2 {
+        font-size: 32px;
+        font-weight: 500;
+        color: rgba(38, 38, 38, 1);
+        margin-bottom: 30px;
+    }
+
+    .service-truck .truck-left p {
+        font-size: 14px;
+        line-height: 170%;
+        width: 100%;
+    }
+
+    .service-truck .truck-right {
+        margin-bottom: 50px;
+    }
+
+    .service-truck .truck-right img {
+        width: 100%;
+        padding: 0;
+
+    }
+
+    /* r-van */
+
+    .r-van {
+        display: block;
+        color: #262626;
+        line-height: 170%;
+    }
+
+    .r-van_left > .r-van_img {
+        display: none;
+    }
+
+    .r-van_img img {
+        width: 100%;
+    }
+
+    .r-van_left {
+        position: relative;
+    }
+
+    .r-van_right {
+        width: 100%;
+        margin-left: 0px;
+        padding: 40px 0;
+        border-top: 2px solid #F47B36;
+    }
+
+    .r-van_content h3 {
+        margin-bottom: 30px;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 41px;
+    }
+
+    .r-van_content p {
+        padding: 0;
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+
+
+    /* warehouse */
+
+    .warehouse {
+        display: block;
+        color: #262626;
+    }
+
+    .warehouse-left {
+        display: block;
+        margin-right: 0px;
+        border-top: 2px solid #F47B36;
+        padding-top: 30px;
+    }
+
+    .warehouse-left h2 {
+        width: 100%;
+        margin-bottom: 30px;
+        font-size: 32px;
+        font-weight: 500;
+        color: rgba(38, 38, 38, 1);
+    }
+
+    .warehouse-left p {
+        margin-bottom: 20px;
+        color: rgba(38, 38, 38, 1);
+        font-size: 14px;
+    }
+
+    .warehouse-left li {
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+        font-size: 11px;
+    }
+
+    .warehouse-left li::before {
+        content: "";
+        width: 5px;
+        height: 5px;
+        margin-right: 20px;
+        display: inline-block;
+        background: #F47B36;
+
+    }
+
+    .warehouse-left ul {
+        margin-bottom: 30px;
+    }
+
+    .warehouse-right {
+        width: 100%;
+        height: auto;
+        margin-bottom: 60px;
+    }
+
+    .warehouse-right .warehouse-images {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .warehouse-right img {
+        width: calc(50% - 8px);
+        margin-left: 0;
+        margin-bottom: 13px;
+    }
+ }
+
